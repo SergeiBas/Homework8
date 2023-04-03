@@ -1,9 +1,9 @@
 package org.ShapeMain;
 
-class Triange extends Shape {
+public class Triange implements Shape {
     private String Triange = "Triange";
-
-    public String getTriange() {
+    @Override
+    public String getName() {
         return Triange;
     }
 }

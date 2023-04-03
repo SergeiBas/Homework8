@@ -1,9 +1,9 @@
 package org.ShapeMain;
 
-class Prism extends Shape {
+public class Prism implements Shape {
     private String Prism = "Prism";
-
-    public String getPrism() {
+    @Override
+    public String getName() {
         return Prism;
     }
 }

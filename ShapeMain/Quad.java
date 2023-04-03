@@ -1,9 +1,9 @@
 package org.ShapeMain;
 
-class Quad extends Shape {
+public class Quad implements Shape {
     private String Quad = "Quad";
-
-    public String getQuad() {
+    @Override
+    public String getName() {
         return Quad;
     }
 }

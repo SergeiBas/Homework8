@@ -1,7 +1,7 @@
 package org.ShapeMain;
 
-class PrintFigure {
-    public void print(String Name) {
-        System.out.println("Name " + Name);
+public class PrintFigure{
+    public void print(Shape name) {
+        System.out.println("Name " + name.getName());
     }
 }

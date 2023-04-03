@@ -1,9 +1,9 @@
 package org.ShapeMain;
 
-class Circle extends Shape {
+public class Circle implements Shape {
     private String Circle = "Circle";
-
-    public String getCircle() {
+    @Override
+    public String getName() {
         return Circle;
     }
 }
